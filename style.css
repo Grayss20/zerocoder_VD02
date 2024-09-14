@@ -2,25 +2,36 @@ body {
     background-color: gray;
 }
 
-.card{
+.card {
    width: 400px;
    height: 650px;
-   background-color: burlywood;
+   background-color: lightblue;
    border-radius: 60px;
+   margin: 32px
+}
+
+.card:hover {
+   width: 800px;
+   height: 1300px;
+   background-color: blue;
+   border-radius: 120px;
+   margin: 64px
 }
 
 .photo {
-   height: 40%;
-   padding: 40px;
+   height: 60%;
+   padding: 24px;
    # padding - это внутренний отступ
    # Для внешних отступов используется margin
 }
 .info {
-   padding: 40px;
+   padding: 32px;
    height: 40%;
 }
 img {
    position: relative;
-   left:17%;
+   left:13%;
+   top: 32px;
    border-radius: 20px;
+   height: 100%
 }
